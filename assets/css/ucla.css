@@ -1,0 +1,875 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    overflow-x: hidden;
+}
+
+.pd-0 {
+    padding: 0;
+}
+
+.marginauto {
+    margin: auto;
+}
+
+.zindex-1 {
+    z-index: 1 !important;
+}
+
+.bg-primary {
+    background: linear-gradient(105deg, #11b68c, #035642);
+}
+
+
+.bannerHeading {
+    color: #fff;
+    font-size: 29px;
+    line-height: 44px;
+    padding-top: 30px !important;
+	    font-weight: 800;
+}
+
+.bannercontentwhite {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.downloadbtn1 {
+    margin-right: 20px !important;
+    background: #fff0;
+    color: #fff !important;
+    border: 1px solid #ffa44b;
+    border-radius: 20px !important;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.downloadbtn2 {
+    margin-right: 20px !important;
+    background: #fff0;
+    color: #000 !important;
+    border: 1px solid #045c46;
+    border-radius: 20px !important;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.register-form-wrapper {
+    padding: 30px 40px;
+    background: rgb(255 255 255);
+    border-radius: 35px;
+    width: 80%;
+    float: right;
+}
+
+.form-title {
+    color: #000;
+}
+
+input.register-submit,
+button.register-submit  {
+    background: #035642;
+    color: #fff;
+    width: auto;
+    font-size: 16px;
+    padding: 15px 60px;
+    border-radius: 30px;
+    margin: 0 auto !important;
+    display: block;
+	border:none;
+}
+
+.bannerProgram {
+    padding: 39px 0;
+}
+
+.programhigh-img {
+    background-color: #11b68c;
+    padding: 16px 20px;
+    margin: 0px 62px;
+    border-radius: 100%;
+    margin-bottom: 5px;
+	width: 100px;
+    height: 100px;
+}
+
+.programhigh-img img {
+    width: 80px
+}
+
+.Tools-Covered {
+    margin: 10px 0;
+    padding: 30px 0;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #00000054;
+}
+
+.Tools-slide .owl-item img {
+    margin: 0 auto
+}
+
+.modeoftrarning {
+    margin: 70px 0;
+
+}
+
+.modeoftrarning .section {
+    padding: 20px 50px;
+    background-color: #f7f5f5;
+    margin-bottom: 40px;
+}
+
+.modeoftrarning .section .title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #00af9c;
+}
+
+.modeoftrarning .section .subtitle {
+    font-size: 18px;
+}
+
+.borderbottom {
+    position: relative;
+}
+
+
+.borderbottom:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80px;
+    border-top: 3px solid #00af9c;
+    z-index: -1;
+    margin: -13px auto;
+}
+
+.borderleft {
+    position: relative;
+}
+
+
+.borderleft:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -312px;
+    right: 0;
+    width: 300px;
+    border-top: 3px solid #00af9c;
+    z-index: -1;
+    margin: 8px 0;
+}
+
+.borderright {
+    position: relative;
+}
+
+
+.borderright:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -308px;
+    width: 300px;
+    border-top: 3px solid #00af9c;
+    z-index: -1;
+    margin: 8px 0;
+}
+
+.cardborder {
+    border-top: 4px solid #1a735d;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    top: 3px;
+    left: 0;
+}
+
+.ouralumini .owl-item img {
+    margin: auto;
+    width: 150px !important;
+}
+
+.grey-card {
+    padding: 30px;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.color-card {
+    padding: 30px;
+    background-color: #00af9c;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 21px;
+    font-weight: 500;
+    color: #00af9c;
+}
+
+.accordion-unique .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgb(255 255 255 / 13%);
+    border-radius: 30px;
+    box-shadow: 0 0 5px #0000003b;
+    margin: 20px 0;
+}
+
+.accordion-unique .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgb(255 255 255 / 0%);
+    border-bottom: 1px solid rgb(255 255 255 / 13%)
+}
+
+.accordion-unique .card-body {
+    padding: 0rem 1.25rem 1.25rem 1.25rem;
+}
+
+.accordion-unique .card-header .btn {
+    width: 100%;
+    border: 1px solid #ffffff;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.accordion-unique .card-header .btn {
+    font-weight: 500;
+    color: #00af9c;
+    font-size: 16px;
+    text-transform: none;
+    padding: 10px 0;
+}
+
+.accordion-unique .card-header .card-body p {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.accordion-unique .card-header .card-body h6 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.accordion-unique .card-header .btn:hover {
+    text-decoration: none;
+}
+
+.accordion-unique .card-header .btn:focus {
+    text-decoration: none;
+}
+
+.accordion-unique .card .card-header .collapse.show {
+    background-color: #000
+}
+
+.COLLABORATION {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0 0px;
+}
+
+.COLLABORATION img {
+    width: 120px;
+
+}
+
+.card-COLLABORATION {
+    padding: 90px 60px 186px 60px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 20px;
+    background-image: url(../images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-COLLABORATION img {
+    margin-bottom: 20px;
+    width: 190px;
+}
+
+.card-COLLABORATION .text {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.COLLABORATION .denis {
+    padding: 20px 10px;
+    background-color: #00af9c;
+    border-radius: 20px 0 0 20px;
+}
+
+/*projects*/
+
+.projects {
+    padding: 20px;
+}
+
+.projects img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.projects h6 {
+    letter-spacing: 1px;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.projects p {
+    font-size: 15px;
+}
+
+/*projects*/
+
+/*carrer-services*/
+.carrer-services {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+
+.carrer-services .title {
+    padding: 15px;
+    background: linear-gradient(105deg, #11b68c, #035642);
+    color: #fff;
+    border-radius: 20px 20px 0 0;
+}
+
+.carrer-services .border-right {
+    border-right: 1px solid #0000002e !important;
+    height: 100%;
+}
+
+.carrer-services .projects {
+    padding: 20px 10px 20px 30px;
+}
+
+.carrer-services .projects img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.carrer-services .projects h6 {
+    letter-spacing: 1px;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.carrer-services .projects p {
+    font-size: 15px;
+}
+
+.card-carrers {
+    background: linear-gradient(105deg, #11b68c, #035642);
+    border-radius: 20px;
+    padding: 24px;
+    color: #fff !important;
+	text-align:center;
+}
+
+.card-carrers h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.card-carrers h6 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/*carrer-services*/
+
+
+
+/*fees*/
+.fees-bg {
+    background: linear-gradient(176deg, #f0f0f0, #ffffff);
+    padding: 50px 0;
+    border-radius: 30px;
+}
+
+.feesSection h3 {
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+
+.feesSection h5 {
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+ul.offered-features li {
+    font-size: 20px;
+    margin: 0;
+    min-height: 48px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feesSection h6 {
+    color: #2F444F;
+}
+
+ul.offered-features {
+    margin: 20px 0;
+}
+.feeDownload {
+    margin-top: 20px;
+    background-color: #fff;
+    color: #000 !important;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    0px: ;
+    padding: 10px 80px !important;
+    border-radius: 40px !important;
+}
+
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.UCLA-p {
+    font-size: 17px;
+    padding: 0 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/*fees*/
+
+
+/*Instructors*/
+
+.Instructors .card {
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0 0 9px #0000001a;
+}
+
+.Instructors .top {
+    background-color: #035642;
+    padding: 60px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 0 9px #0000001a;
+}
+
+.Instructors .bottom {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Instructors .img img {
+    margin: -90px auto;
+    margin-bottom: 0;
+}
+
+/*.instructor p {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}*/
+
+/*.instructor p {
+    position: relative;
+    margin: 5em;
+    padding: 1em;
+    box-sizing: border-box;
+    background: #bada55;
+    box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, 0.4);
+}*/
+
+
+.instructor p {
+    position: relative;
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgb(0 0 0 / 24%);
+}
+
+.instructor p::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: 32.7em;
+    top: 1px;
+    bottom: 0;
+    left: 13%;
+    box-sizing: border-box;
+    border: 1em solid black;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(134deg);
+    box-shadow: -3px 3px 3px 0 rgb(0 0 0 / 12%);
+
+}
+
+.instructor .p1::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: -0.5em;
+    top: 1px;
+    bottom: 0;
+    left: 13%;
+    box-sizing: border-box;
+    border: 1em solid black;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(134deg);
+    box-shadow: -3px 3px 3px 0 rgb(0 0 0 / 12%);
+
+}
+
+.instructor .p2::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: 21.6em;
+    top: 1px;
+    bottom: 0;
+    left: 13%;
+    box-sizing: border-box;
+    border: 1em solid black;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(134deg);
+    box-shadow: -3px 3px 3px 0 rgb(0 0 0 / 12%);
+
+}
+
+.instructor .p3::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: 43.5em;
+    top: 1px;
+    bottom: 0;
+    left: 13%;
+    box-sizing: border-box;
+    border: 1em solid black;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(134deg);
+    box-shadow: -3px 3px 3px 0 rgb(0 0 0 / 12%);
+
+}
+
+.instructor .p4::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: 65.1em;
+    top: 1px;
+    bottom: 0;
+    left: 13%;
+    box-sizing: border-box;
+    border: 1em solid black;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(134deg);
+    box-shadow: -3px 3px 3px 0 rgb(0 0 0 / 12%);
+
+}
+.f-24{
+	font-size:24px;
+	font-weight:700;
+}
+.f-24 span {
+        display: block;
+    font-size: 14px;
+    color: #fff;
+}
+/*Instructors*/
+
+@media only screen and (min-width:1800px) and (max-width:1920px) {
+    .programhigh-img {
+        background-color: #11b68c;
+        padding: 16px 20px;
+        margin: 0px 80px;
+        border-radius: 50px;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (min-width:1700px) and (max-width:1800px) {
+    .programhigh-img {
+        margin: 0px 68px;
+    }
+}
+
+@media only screen and (min-width:1400px) and (max-width:1700px) {
+    .borderright:after {
+        right: -200px;
+        width: 190px;
+    }
+
+    .programhigh-img {
+        margin: 0px 55px;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1400px) {
+    .bannercontentwhite {
+        color: #fff;
+        font-size: 20px;
+        line-height: 25px;
+        margin: 0;
+    }
+
+    .programhigh-img {
+        margin: 0px 35px;
+    }
+
+    .borderright:after {
+
+        right: -98px;
+        width: 93px;
+    }
+
+    /*input.name-input {
+        background: url(../images/input-user.png) no-repeat 7px 16px;
+    }
+
+    input.name-phone {
+        background: url(../images/input-call.png) no-repeat 5px 16px;
+    }
+
+    input.name-email {
+        background: url(../images/input-envelope.png) no-repeat 10px 16px;
+    }*/
+
+    input.register-input,
+    register-input,
+    select.register-input {
+        padding-left: 13% !important;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width:550px) {
+	.downloadbtn2 {
+		display: block;
+		margin: 0 auto !important;
+	}
+
+    .instructor p:after,
+    .instructor .p1:after,
+    .instructor .p2:after,
+    .instructor .p3:after,
+    .instructor .p4:after {
+        margin-left: 10.5em !important;
+    }
+
+    .borderright:after {
+        right: 0;
+        width: 0;
+    }
+
+    .borderleft:after {
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 0;
+    }
+
+    .bannerHeading {
+        font-size: 21px;
+        font-weight: 600;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+		line-height:25px;
+    }
+	h3.colab-ucla {
+		font-size: 19px;
+	}
+	h3.colab-ucla img {
+		margin: 5px 0 0;
+	}
+	.bannercontentwhite {
+		line-height: 24px;
+		    margin-bottom: 5px;
+	}
+	div#EnquireNow {
+		padding-top: 0 !important;
+		margin-bottom: 20px;
+	}
+
+    .f-20,.f-24 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    input.name-input {
+        background: none;
+    }
+
+    input.name-phone {
+        background: none;
+    }
+
+    input.register-input,
+    register-input,
+    select.register-input {
+        width: 100% !important;
+        height: 52px !important;
+        padding-left: 6% !important;
+    }
+
+    input.name-email {
+        background: none;
+    }
+
+    .register-form-wrapper {
+        width: 100%;
+    }
+
+    .programhigh-img {
+        margin: 0px 33px;
+    }
+
+    .modeoftrarning .section {
+        padding: 20px 50px;
+        background-color: #f7f5f5;
+        margin: 0 15px 40px 15px;
+        border-radius: 20px;
+    }
+
+    .accordion-unique .card-header .btn {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .text-l {
+        text-align: center !important
+    }
+
+    .jobRoles {
+        width: 100%;
+        padding: 2em 1em;
+    }
+
+    .dspexpBtnProduct {
+        display: block;
+    }
+
+    .jobBtnDiv {
+        width: 85%;
+        margin: auto auto 20px !important;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .carrer-services {
+        background-color: #fff;
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    .card-carrers {
+
+        margin-bottom: 14px;
+    }
+
+    .carrer-services .border-right {
+        border-right: none !important;
+    }
+
+    /*.pd-0 {
+        padding: 15px;
+    }*/
+
+    .Instructors .card {
+        border-radius: 20px;
+        margin: 15px;
+    }
+
+    .COLLABORATION .denis {
+        border-radius: 20px 20px 0 0px;
+    }
+
+    .mb-margin {
+        margin: 10px 0
+    }
+
+    .mm-10 {
+        margin: 5px;
+    }
+
+    .carrer-services .projects {
+        padding: 30px;
+    }
+
+    .bannerProgram2 {
+        padding: 10px 0;
+    }
+
+    .mainMargin-1 {
+        margin: 0 !important;
+    }
+
+    .register-form-wrapper {
+        padding: 30px 30px;
+    }
+
+    .br-mobile {
+        display: none
+    }
+
+    .projects {
+        text-align: center;
+    }
+
+    .card-COLLABORATION {
+        padding: 90px 60px 100px 60px;
+    }
+
+    .card-COLLABORATION .text {
+        color: #fff;
+        font-size: 19px;
+    }
+    
+    .p-lr-5{
+        padding: 0 10px;
+    }
+
+}
